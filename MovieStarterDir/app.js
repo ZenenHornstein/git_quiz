@@ -1,3 +1,5 @@
+//student number: A01185704
+//
 // This is my change i have added 
 // Add DOM selectors to target input and UL movie list
 var inp = document.querySelector("input");
