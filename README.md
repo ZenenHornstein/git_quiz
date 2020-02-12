@@ -45,4 +45,8 @@ Within comments, explain exactly what map is doing. Finally, why is the
 "transformation function" we discussed in class sometimes referred to 
 as a callback function. 
 
+** Map is iterating over all the elements in the array and applying some 
+function to every element of the array and constructing a new array with these values. **
 
+** A callback function is just a function that gets passed into another function, usually to be called at the end. In this example, The map and transformation function combo can be thought of as a single function that iterates over an array.
+For every element in the array, the callback function is called and it returns a new (most likely modifed) element.
